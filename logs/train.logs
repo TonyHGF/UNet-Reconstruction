@@ -1,0 +1,112 @@
+
+========== Training Configuration ==========
+batch_size: 8
+epochs: 100
+lr: 0.001
+acceleration: 5
+mask_type: cartesian
+===========================================
+
+Found 47 training files, 20 validation files.
+Input shape: torch.Size([8, 24, 224, 176])
+Target shape: torch.Size([8, 24, 224, 176])
+Epoch [1/100] | Train Loss: 212457.9822 | Val Loss: 198943.4358 | Val PSNR: -110.48 dB | Val SSIM: 0.0002
+Epoch [2/100] | Train Loss: 189406.1879 | Val Loss: 185461.3118 | Val PSNR: -109.89 dB | Val SSIM: 0.0013
+Epoch [3/100] | Train Loss: 183536.3379 | Val Loss: 181513.3918 | Val PSNR: -109.66 dB | Val SSIM: 0.0016
+Epoch [4/100] | Train Loss: 179875.8589 | Val Loss: 177843.1102 | Val PSNR: -109.45 dB | Val SSIM: 0.0037
+Epoch [5/100] | Train Loss: 176693.1716 | Val Loss: 176214.0795 | Val PSNR: -109.35 dB | Val SSIM: 0.0055
+Epoch [6/100] | Train Loss: 174139.3959 | Val Loss: 175268.2709 | Val PSNR: -109.26 dB | Val SSIM: 0.0062
+Epoch [7/100] | Train Loss: 172388.9225 | Val Loss: 172619.4866 | Val PSNR: -109.13 dB | Val SSIM: 0.0116
+Epoch [8/100] | Train Loss: 170951.9851 | Val Loss: 171876.9835 | Val PSNR: -109.08 dB | Val SSIM: 0.0085
+Epoch [9/100] | Train Loss: 170160.0767 | Val Loss: 175342.9385 | Val PSNR: -109.22 dB | Val SSIM: 0.0068
+Epoch [10/100] | Train Loss: 169032.9204 | Val Loss: 172192.2966 | Val PSNR: -109.09 dB | Val SSIM: 0.0118
+Epoch [11/100] | Train Loss: 168085.2987 | Val Loss: 172370.4437 | Val PSNR: -109.08 dB | Val SSIM: 0.0213
+Epoch [12/100] | Train Loss: 167320.8709 | Val Loss: 174583.4219 | Val PSNR: -109.18 dB | Val SSIM: 0.0124
+Epoch [13/100] | Train Loss: 166563.5717 | Val Loss: 169682.7914 | Val PSNR: -108.95 dB | Val SSIM: 0.0182
+Epoch [14/100] | Train Loss: 166052.0582 | Val Loss: 170171.5944 | Val PSNR: -108.97 dB | Val SSIM: 0.0213
+Epoch [15/100] | Train Loss: 165395.6296 | Val Loss: 169052.0999 | Val PSNR: -108.92 dB | Val SSIM: 0.0158
+Epoch [16/100] | Train Loss: 165027.2310 | Val Loss: 168499.4102 | Val PSNR: -108.88 dB | Val SSIM: 0.0316
+Epoch [17/100] | Train Loss: 164568.6125 | Val Loss: 168881.2808 | Val PSNR: -108.90 dB | Val SSIM: 0.0310
+Epoch [18/100] | Train Loss: 164095.5104 | Val Loss: 167818.8183 | Val PSNR: -108.84 dB | Val SSIM: 0.0203
+Epoch [19/100] | Train Loss: 163679.0008 | Val Loss: 167796.6930 | Val PSNR: -108.84 dB | Val SSIM: 0.0326
+Epoch [20/100] | Train Loss: 163529.0945 | Val Loss: 166579.2777 | Val PSNR: -108.79 dB | Val SSIM: 0.0343
+Epoch [21/100] | Train Loss: 163097.2801 | Val Loss: 167549.9750 | Val PSNR: -108.84 dB | Val SSIM: 0.0278
+Epoch [22/100] | Train Loss: 162897.2649 | Val Loss: 166902.2189 | Val PSNR: -108.80 dB | Val SSIM: 0.0265
+Epoch [23/100] | Train Loss: 162703.1611 | Val Loss: 167888.3266 | Val PSNR: -108.84 dB | Val SSIM: 0.0171
+Epoch [24/100] | Train Loss: 162492.6796 | Val Loss: 166002.6263 | Val PSNR: -108.75 dB | Val SSIM: 0.0341
+Epoch [25/100] | Train Loss: 162308.1234 | Val Loss: 166765.9143 | Val PSNR: -108.78 dB | Val SSIM: 0.0321
+Epoch [26/100] | Train Loss: 162255.4707 | Val Loss: 166289.0370 | Val PSNR: -108.76 dB | Val SSIM: 0.0276
+Epoch [27/100] | Train Loss: 161814.2942 | Val Loss: 166656.3490 | Val PSNR: -108.78 dB | Val SSIM: 0.0355
+Epoch [28/100] | Train Loss: 161934.4998 | Val Loss: 166943.5770 | Val PSNR: -108.80 dB | Val SSIM: 0.0333
+Epoch [29/100] | Train Loss: 161656.4932 | Val Loss: 166219.8946 | Val PSNR: -108.75 dB | Val SSIM: 0.0319
+Epoch [30/100] | Train Loss: 161581.8961 | Val Loss: 167300.6441 | Val PSNR: -108.81 dB | Val SSIM: 0.0197
+Epoch [31/100] | Train Loss: 159115.2192 | Val Loss: 165093.5655 | Val PSNR: -108.70 dB | Val SSIM: 0.0386
+Epoch [32/100] | Train Loss: 159086.8460 | Val Loss: 165163.1618 | Val PSNR: -108.71 dB | Val SSIM: 0.0452
+Epoch [33/100] | Train Loss: 158959.9798 | Val Loss: 165355.8718 | Val PSNR: -108.72 dB | Val SSIM: 0.0391
+Epoch [34/100] | Train Loss: 158732.9347 | Val Loss: 165027.4699 | Val PSNR: -108.70 dB | Val SSIM: 0.0436
+Epoch [35/100] | Train Loss: 158706.1153 | Val Loss: 165121.8071 | Val PSNR: -108.71 dB | Val SSIM: 0.0443
+Epoch [36/100] | Train Loss: 158594.3583 | Val Loss: 165008.8519 | Val PSNR: -108.70 dB | Val SSIM: 0.0425
+Epoch [37/100] | Train Loss: 158464.1891 | Val Loss: 165321.6285 | Val PSNR: -108.72 dB | Val SSIM: 0.0464
+Epoch [38/100] | Train Loss: 158328.6492 | Val Loss: 165091.7574 | Val PSNR: -108.70 dB | Val SSIM: 0.0396
+Epoch [39/100] | Train Loss: 158277.0248 | Val Loss: 165065.6124 | Val PSNR: -108.71 dB | Val SSIM: 0.0451
+Epoch [40/100] | Train Loss: 158179.1235 | Val Loss: 165227.1798 | Val PSNR: -108.71 dB | Val SSIM: 0.0455
+Epoch [41/100] | Train Loss: 158152.1200 | Val Loss: 166683.1079 | Val PSNR: -108.78 dB | Val SSIM: 0.0228
+Epoch [42/100] | Train Loss: 158067.9170 | Val Loss: 165279.8356 | Val PSNR: -108.72 dB | Val SSIM: 0.0417
+Epoch [43/100] | Train Loss: 157969.9086 | Val Loss: 165026.6062 | Val PSNR: -108.70 dB | Val SSIM: 0.0468
+Epoch [44/100] | Train Loss: 157862.1960 | Val Loss: 164910.0261 | Val PSNR: -108.70 dB | Val SSIM: 0.0505
+Epoch [45/100] | Train Loss: 157837.8260 | Val Loss: 165117.9871 | Val PSNR: -108.71 dB | Val SSIM: 0.0479
+Epoch [46/100] | Train Loss: 157700.3234 | Val Loss: 165232.5829 | Val PSNR: -108.72 dB | Val SSIM: 0.0386
+Epoch [47/100] | Train Loss: 157575.2034 | Val Loss: 165262.9553 | Val PSNR: -108.71 dB | Val SSIM: 0.0409
+Epoch [48/100] | Train Loss: 157625.4919 | Val Loss: 164906.8060 | Val PSNR: -108.70 dB | Val SSIM: 0.0467
+Epoch [49/100] | Train Loss: 157411.1829 | Val Loss: 165322.3605 | Val PSNR: -108.72 dB | Val SSIM: 0.0414
+Epoch [50/100] | Train Loss: 157463.5502 | Val Loss: 165219.2466 | Val PSNR: -108.71 dB | Val SSIM: 0.0440
+Epoch [51/100] | Train Loss: 157438.2351 | Val Loss: 165344.9434 | Val PSNR: -108.73 dB | Val SSIM: 0.0460
+Epoch [52/100] | Train Loss: 157321.1229 | Val Loss: 165209.8324 | Val PSNR: -108.71 dB | Val SSIM: 0.0409
+Epoch [53/100] | Train Loss: 157320.1719 | Val Loss: 165000.7534 | Val PSNR: -108.70 dB | Val SSIM: 0.0501
+Epoch [54/100] | Train Loss: 157267.7377 | Val Loss: 165515.4411 | Val PSNR: -108.72 dB | Val SSIM: 0.0452
+Epoch [55/100] | Train Loss: 157105.6614 | Val Loss: 165681.7278 | Val PSNR: -108.74 dB | Val SSIM: 0.0320
+Epoch [56/100] | Train Loss: 157076.9090 | Val Loss: 165268.1793 | Val PSNR: -108.72 dB | Val SSIM: 0.0424
+Epoch [57/100] | Train Loss: 157054.5824 | Val Loss: 165390.9836 | Val PSNR: -108.72 dB | Val SSIM: 0.0446
+Epoch [58/100] | Train Loss: 156975.5900 | Val Loss: 165649.7509 | Val PSNR: -108.74 dB | Val SSIM: 0.0388
+Epoch [59/100] | Train Loss: 156915.5869 | Val Loss: 165622.3140 | Val PSNR: -108.73 dB | Val SSIM: 0.0423
+Epoch [60/100] | Train Loss: 156875.2645 | Val Loss: 165366.5878 | Val PSNR: -108.72 dB | Val SSIM: 0.0389
+Epoch [61/100] | Train Loss: 155789.6930 | Val Loss: 164947.3070 | Val PSNR: -108.71 dB | Val SSIM: 0.0547
+Epoch [62/100] | Train Loss: 155729.5938 | Val Loss: 165079.5849 | Val PSNR: -108.72 dB | Val SSIM: 0.0554
+Epoch [63/100] | Train Loss: 155753.4589 | Val Loss: 164904.1542 | Val PSNR: -108.70 dB | Val SSIM: 0.0543
+Epoch [64/100] | Train Loss: 155666.0859 | Val Loss: 165104.9832 | Val PSNR: -108.71 dB | Val SSIM: 0.0479
+Epoch [65/100] | Train Loss: 155537.2198 | Val Loss: 165082.8912 | Val PSNR: -108.71 dB | Val SSIM: 0.0525
+Epoch [66/100] | Train Loss: 155493.7395 | Val Loss: 164905.6023 | Val PSNR: -108.71 dB | Val SSIM: 0.0549
+Epoch [67/100] | Train Loss: 155453.1118 | Val Loss: 165095.3600 | Val PSNR: -108.71 dB | Val SSIM: 0.0544
+Epoch [68/100] | Train Loss: 155369.5026 | Val Loss: 165047.2447 | Val PSNR: -108.71 dB | Val SSIM: 0.0560
+Epoch [69/100] | Train Loss: 155419.2861 | Val Loss: 164982.9660 | Val PSNR: -108.71 dB | Val SSIM: 0.0507
+Epoch [70/100] | Train Loss: 155272.8459 | Val Loss: 165084.0631 | Val PSNR: -108.72 dB | Val SSIM: 0.0533
+Epoch [71/100] | Train Loss: 155310.8818 | Val Loss: 165148.4970 | Val PSNR: -108.72 dB | Val SSIM: 0.0517
+Epoch [72/100] | Train Loss: 155270.1684 | Val Loss: 165590.2163 | Val PSNR: -108.73 dB | Val SSIM: 0.0334
+Epoch [73/100] | Train Loss: 155224.2585 | Val Loss: 165142.3283 | Val PSNR: -108.72 dB | Val SSIM: 0.0535
+Epoch [74/100] | Train Loss: 155216.8038 | Val Loss: 165000.8250 | Val PSNR: -108.71 dB | Val SSIM: 0.0551
+Epoch [75/100] | Train Loss: 155099.1550 | Val Loss: 165022.1972 | Val PSNR: -108.71 dB | Val SSIM: 0.0587
+Epoch [76/100] | Train Loss: 155161.9351 | Val Loss: 165061.4960 | Val PSNR: -108.71 dB | Val SSIM: 0.0529
+Epoch [77/100] | Train Loss: 155075.4526 | Val Loss: 165051.7860 | Val PSNR: -108.71 dB | Val SSIM: 0.0530
+Epoch [78/100] | Train Loss: 154991.0857 | Val Loss: 165308.6196 | Val PSNR: -108.72 dB | Val SSIM: 0.0495
+Epoch [79/100] | Train Loss: 154915.0136 | Val Loss: 165175.8596 | Val PSNR: -108.72 dB | Val SSIM: 0.0563
+Epoch [80/100] | Train Loss: 154871.8723 | Val Loss: 165091.9754 | Val PSNR: -108.72 dB | Val SSIM: 0.0572
+Epoch [81/100] | Train Loss: 154780.6175 | Val Loss: 165060.2851 | Val PSNR: -108.71 dB | Val SSIM: 0.0535
+Epoch [82/100] | Train Loss: 154730.9550 | Val Loss: 165040.3320 | Val PSNR: -108.72 dB | Val SSIM: 0.0538
+Epoch [83/100] | Train Loss: 154680.6201 | Val Loss: 165084.8325 | Val PSNR: -108.72 dB | Val SSIM: 0.0575
+Epoch [84/100] | Train Loss: 154661.8852 | Val Loss: 165198.0700 | Val PSNR: -108.73 dB | Val SSIM: 0.0580
+Epoch [85/100] | Train Loss: 154608.8988 | Val Loss: 165030.3817 | Val PSNR: -108.72 dB | Val SSIM: 0.0599
+Epoch [86/100] | Train Loss: 154567.5627 | Val Loss: 165011.9907 | Val PSNR: -108.72 dB | Val SSIM: 0.0551
+Epoch [87/100] | Train Loss: 154515.2384 | Val Loss: 164961.6449 | Val PSNR: -108.71 dB | Val SSIM: 0.0578
+Epoch [88/100] | Train Loss: 154483.6925 | Val Loss: 165148.5377 | Val PSNR: -108.72 dB | Val SSIM: 0.0458
+Epoch [89/100] | Train Loss: 154476.1715 | Val Loss: 165016.8239 | Val PSNR: -108.72 dB | Val SSIM: 0.0547
+Epoch [90/100] | Train Loss: 154427.6179 | Val Loss: 165020.3049 | Val PSNR: -108.72 dB | Val SSIM: 0.0530
+Epoch [91/100] | Train Loss: 153912.4118 | Val Loss: 164770.1552 | Val PSNR: -108.70 dB | Val SSIM: 0.0591
+Epoch [92/100] | Train Loss: 153917.8417 | Val Loss: 164773.0979 | Val PSNR: -108.71 dB | Val SSIM: 0.0563
+Epoch [93/100] | Train Loss: 153806.6568 | Val Loss: 164983.5300 | Val PSNR: -108.72 dB | Val SSIM: 0.0605
+Epoch [94/100] | Train Loss: 153815.3089 | Val Loss: 164827.2735 | Val PSNR: -108.71 dB | Val SSIM: 0.0601
+Epoch [95/100] | Train Loss: 153776.8168 | Val Loss: 164867.2396 | Val PSNR: -108.71 dB | Val SSIM: 0.0616
+Epoch [96/100] | Train Loss: 153776.7058 | Val Loss: 164988.8688 | Val PSNR: -108.72 dB | Val SSIM: 0.0571
+Epoch [97/100] | Train Loss: 153683.1330 | Val Loss: 164914.3848 | Val PSNR: -108.71 dB | Val SSIM: 0.0611
+Epoch [98/100] | Train Loss: 153713.1756 | Val Loss: 165127.6141 | Val PSNR: -108.73 dB | Val SSIM: 0.0594
+Epoch [99/100] | Train Loss: 153686.6067 | Val Loss: 164964.7714 | Val PSNR: -108.72 dB | Val SSIM: 0.0610
+Epoch [100/100] | Train Loss: 153654.8137 | Val Loss: 164907.1531 | Val PSNR: -108.72 dB | Val SSIM: 0.0606
